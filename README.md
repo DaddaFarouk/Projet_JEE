@@ -1,7 +1,7 @@
 
-#                                                         Spring cloud Microservices and Angular front-end
+#                                                         Projet JEE et Systèmes Distribués
 
-# I. Backend :
+# I. BACKEND :
   * [1. use case](#1-use-case)
   * [2 Inventory service - get all products](#2-inventory-service---get-all-products)
   * [3 Inventory service - get product by ID](#3-inventory-service---get-product-by-id)
@@ -10,7 +10,7 @@
   * [6 Bill Service - get bills](#6-bill-service---get-bills)
   * [7 Bill Service - get bill by id](#7-bill-service---get-bill-by-id)
   * [8 Eureka Service](#8-eureka-service)
-# II. Frontend Angular Client :
+# II. FRONTEND :
   * [Login screen](#login-screen)
   ## Products
   * [1 Show all products](#1-show-all-products)

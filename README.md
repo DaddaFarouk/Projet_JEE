@@ -1,7 +1,7 @@
 
-#                                                         Spring cloud Microservices and Angular front-end
+#                                                         Projet JEE et Systèmes Distribués
 
-# I. Backend :
+# I. BACKEND :
   * [1. use case](#1-use-case)
   * [2 Inventory service - get all products](#2-inventory-service---get-all-products)
   * [3 Inventory service - get product by ID](#3-inventory-service---get-product-by-id)
@@ -10,40 +10,40 @@
   * [6 Bill Service - get bills](#6-bill-service---get-bills)
   * [7 Bill Service - get bill by id](#7-bill-service---get-bill-by-id)
   * [8 Eureka Service](#8-eureka-service)
-# II. Frontend Angular Client :
+# II. FRONTEND :
   * [Login screen](#login-screen)
-  ## Products
+  ## PRODUCTS
   * [1 Show all products](#1-show-all-products)
   * [2 Edit products](#2-edit-products)
   * [3 Delete products](#3-delete-products)
   * [4 Search for a product](#4-search-for-a-product)
   * [5 New Product](#5-new-product)
-  ## Customers
+  ## CUSTOMERS
   * [1 Show all customer](#1-show-all-customer)
   * [2 Edit Customer](#2-edit-customer)
   * [3 Delete Customer](#3-delete-customer)
   * [4 Search Customer](#4-search-customer)
   * [5 New Customer](#5-new-customer)
-  ## Bills
+  ## BILLS
   * [Show Bills](#show-bills)
-   # III. Keycloak
+   # III. KEYCLOAK
   * [1 Realm](#1-realm)
   * [2 Client](#2-client)
   * [3 Utilisateurs](#3-users)
   * [4 Rôles](#4-roles)
   * [5 Tokens](#4-tokens)
   * [6 Service sécurisé](#5-Service-sécurisé)
-  # IV. Kafka :
+  # IV. KAFKA :
   * [1 Supplier](#1-supplier)
   * [2 Consumer](#2-Consumer)
   * [3 Kafka streams ](#3-Kafka-streams )
 
 
-# V. Docker :
+# V. DOCKER :
 
 
-# I. Backend :
-## 1. use case
+# I. BACKEND :
+## 1. Use case
 
 ![image](https://user-images.githubusercontent.com/62290643/206123723-0f5d7345-b23d-4ecb-84cb-83346104a73d.png)
 
@@ -97,14 +97,14 @@ GET /localhost:8888/BILLING-SERVICE/bills/{id}
 ![image](https://user-images.githubusercontent.com/73041687/206929439-146e7068-33c7-4396-9771-5acfdf2cbf83.png)
 
 
-## 8 Eureka Service 
+## 8 EUREKA DISCOVERY 
 ```http
 GET /localhost:8761/
 ```
 
 ![image](https://user-images.githubusercontent.com/73041687/206929524-ac240628-ffa6-4c75-89ce-e0190e1b0f3b.png)
 
-# II. Frontend Angular Client :
+# II. FRONTEND :
 ## Login screen 
 
 ![image](https://user-images.githubusercontent.com/101510983/206923607-8e842b94-d208-4dc6-8cbe-fb68db9037ec.png)
@@ -136,8 +136,8 @@ GET /localhost:8761/
 
 ![image](https://user-images.githubusercontent.com/73041687/206930073-1a2a33f3-5b18-47bc-b52e-31487eaea6f4.png)
 
-## Products
-## 1 Show all customer
+## PRODUCTS
+## 1 Show all customerS
 
 ![image](https://user-images.githubusercontent.com/73041687/206930084-b11cfba1-3b0e-47fb-baa3-6048a14d7184.png)
 
@@ -170,34 +170,34 @@ GET /localhost:8761/
 ![image](https://user-images.githubusercontent.com/73041687/206930187-03b8b8cd-22f4-44e9-8067-e508a471b9e1.png)
 
 
-## Bills
+## BILLS
 ## Show Bills  
 
 ![image](https://user-images.githubusercontent.com/73041687/206930409-7593d23d-fd37-4f3d-a34e-598a04895976.png)
 
-# III. Keycloak :
+# III. KEYCLOAK :
 ```To start Keycloak
 > ...\bin\standalone.bat
 ```
 
-## 1. Realm
+## 1. REALM
 
 ![image](https://user-images.githubusercontent.com/73041687/219620750-5378152e-a955-45e1-9bd2-699374405d80.png)
 
-## 2. Client
+## 2. CLIENT
 
 ![image](https://user-images.githubusercontent.com/73041687/219620904-dd7f3c62-636a-41c8-b327-106fa3cf47cc.png)
 
-## 3. Utilisateurs
+## 3. USERS
 
 ![image](https://user-images.githubusercontent.com/73041687/219620974-3fa8bea4-4be1-43c3-9b89-44841369e2f7.png)
 
-## 4. Rôles
+## 4. ROLES
 ![image](https://user-images.githubusercontent.com/73041687/219621061-6890af29-2d3e-44c1-890a-02e970ca78b8.png)
 
 ![image](https://user-images.githubusercontent.com/73041687/219621157-94bd7359-07d2-48e6-91b5-661348334d60.png)
 
-## 5. Tokens
+## 5. TOKENS
 
 ![Capture d’écran 2023-02-09 173815](https://user-images.githubusercontent.com/73041687/219621277-d957395c-559d-402a-a06a-232e1109cccf.jpg)
 
@@ -208,43 +208,37 @@ GET /localhost:8761/
 ![image](https://user-images.githubusercontent.com/73041687/219621563-7e6a5211-68be-44be-b764-45867cf51713.png)
 
 
-# IV. Kafka :
-## 1. Supplier
+# IV. KAFKA :
+## 1. SUPPLIER
 
 ![image](https://user-images.githubusercontent.com/73041687/219654966-8ed99356-f63b-449b-b782-480121de32f6.png)
 
 ![image](https://user-images.githubusercontent.com/73041687/219687628-a8c20cbe-a87a-4375-9636-b932406c01ac.png)
 
 
-## 2. Consumer
+## 2. CONSUMER
 
 ![image](https://user-images.githubusercontent.com/73041687/219677290-25fc52df-3a92-4a65-8e3e-dbf559b2f1de.png)
 
-## 3. Kafka streams 
+## 3. KAFKA STREAMS 
 
 ![image](https://user-images.githubusercontent.com/73041687/219668084-72ac27e1-849e-4fe5-bec0-9eb63685b965.png)
 
 
 
-# V. Docker :
+# V. DOCKER :
 
-## Billing service 
+## BILLING-SERVICE 
 ![image](https://user-images.githubusercontent.com/73041687/219697077-feed41f4-1a89-45e8-9206-19451d6dc80a.png)
-## Inventory service
+## INVENTORY-SERVICE
 ![image](https://user-images.githubusercontent.com/73041687/219698461-5131e970-68b0-4978-a159-a0c628cdb856.png)
 
 ![image](https://user-images.githubusercontent.com/73041687/219706814-b5b679ad-30b0-4848-a57c-743ddd0b2798.png)
-## Customer service
+## CUSTOMER-SERVICE
 ![image](https://user-images.githubusercontent.com/73041687/219711327-4aa8d7a0-ce1a-4472-b641-f786e4c21cac.png)
-## gateway service
+## GATEWAY-SERVICE
 ![image](https://user-images.githubusercontent.com/73041687/219712194-4ea37e61-e626-4d56-97eb-b2bbef4cac46.png)
-## Eureka discovery
+## EUREKA-DISCOVERY
 ![image](https://user-images.githubusercontent.com/73041687/219712878-4d8b842d-bba9-4029-b066-2008989cbd1c.png)
-## Frontend catalog
+## FRONTEND
 ![image](https://user-images.githubusercontent.com/73041687/219715512-4cac181c-f35b-4870-9df7-e69f328714ce.png)
-
-
-
-
-
-

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Catalog-Angular" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/billing-service-spring-cloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/customer-service-spring-cloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eureka-discovery-spring-cloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gateway-service-spring-cloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/inventory-service-spring-cloud" vcs="Git" />
+  </component>
+</project>

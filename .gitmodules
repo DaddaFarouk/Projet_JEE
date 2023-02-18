@@ -1,0 +1,18 @@
+[submodule "Catalog-Angular"]
+	path = Catalog-Angular
+	url = https://github.com/DaddaFarouk/Catalog-Angular.git
+[submodule "billing-service-spring-cloud"]
+	path = billing-service-spring-cloud
+	url = https://github.com/DaddaFarouk/billing-service-spring-cloud.git
+[submodule "customer-service-spring-cloud"]
+	path = customer-service-spring-cloud
+	url = https://github.com/DaddaFarouk/customer-service-spring-cloud.git
+[submodule "eureka-discovery-spring-cloud"]
+	path = eureka-discovery-spring-cloud
+	url = https://github.com/DaddaFarouk/eureka-discovery-spring-cloud.git
+[submodule "gateway-service-spring-cloud"]
+	path = gateway-service-spring-cloud
+	url = https://github.com/DaddaFarouk/gateway-service-spring-cloud.git
+[submodule "inventory-service-spring-cloud"]
+	path = inventory-service-spring-cloud
+	url = https://github.com/DaddaFarouk/inventory-service-spring-cloud.git

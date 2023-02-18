@@ -137,7 +137,7 @@ GET /localhost:8761/
 ![image](https://user-images.githubusercontent.com/73041687/206930073-1a2a33f3-5b18-47bc-b52e-31487eaea6f4.png)
 
 ## PRODUCTS
-## 1 Show all customerS
+## 1 Show all customers
 
 ![image](https://user-images.githubusercontent.com/73041687/206930084-b11cfba1-3b0e-47fb-baa3-6048a14d7184.png)
 
@@ -235,10 +235,10 @@ GET /localhost:8761/
 
 ![image](https://user-images.githubusercontent.com/73041687/219706814-b5b679ad-30b0-4848-a57c-743ddd0b2798.png)
 ## CUSTOMER-SERVICE
-![image](https://user-images.githubusercontent.com/73041687/219711327-4aa8d7a0-ce1a-4472-b641-f786e4c21cac.png)
+![1](https://user-images.githubusercontent.com/84048380/219879470-280f20b5-64ba-40ef-b1d1-efbcf85222ba.png)
 ## GATEWAY-SERVICE
-![image](https://user-images.githubusercontent.com/73041687/219712194-4ea37e61-e626-4d56-97eb-b2bbef4cac46.png)
+![2](https://user-images.githubusercontent.com/84048380/219879477-5aabf372-83ce-425f-91ce-1b7229f4e183.png)
 ## EUREKA-DISCOVERY
-![image](https://user-images.githubusercontent.com/73041687/219712878-4d8b842d-bba9-4029-b066-2008989cbd1c.png)
+![3](https://user-images.githubusercontent.com/84048380/219879489-cf5be4ef-21dd-4591-a6fe-729d264c99bc.png)
 ## FRONTEND
-![image](https://user-images.githubusercontent.com/73041687/219715512-4cac181c-f35b-4870-9df7-e69f328714ce.png)
+![4](https://user-images.githubusercontent.com/84048380/219879497-61682b3a-19cc-4aba-b753-9088da73a10e.png)
